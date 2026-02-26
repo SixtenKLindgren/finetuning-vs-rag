@@ -13,10 +13,10 @@ https://starwars.fandom.com/wiki/Special:Statistics
 ### Filer
 
 01_parse_data.py    - Parsar Wookieepedia XML-dump till ren text
-02_finetune.py      - Finetunar modellen med LoRA (körs på Google Colab)
+02_finetune.py      - Finetunar modellen med LoRA (körs på Google Colab för GPU)
 03_rag.py           - RAG-system som söker i artiklarna och svarar på frågor
-04_evaluate.py      - Kör quizet på alla tre system och jämför resultaten
-test_questions.json - 100 Star Wars-frågor med svar (från QuizBreaker)
+04_evaluate.py      - Kör quizet på alla tre system och jämför resultaten (_behöver filer som skapas i tidigare steg_)
+test_questions.json - 100 Star Wars-frågor med svar
 
 Modell
 ------
