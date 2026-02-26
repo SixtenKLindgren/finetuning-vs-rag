@@ -22,16 +22,7 @@ https://starwars.fandom.com/wiki/Special:Statistics
 
 `test_questions.json` - 100 Star Wars-frågor med svar
 
-Modell
-------
+### Modell
+
 Basmodellen är Qwen 2.5 0.5B som laddas ner automatiskt från
 Hugging Face när man kör scripten.
-
-
-Ordning
--------
-1. Ladda ner Wookieepedia-dumpen och packa upp den
-2. Kör 01_parse_data.py för att få wookieepedia_corpus.jsonl
-3. Kör 02_finetune.py på Google Colab för att träna modellen
-4. Kör 03_rag.py för att testa RAG-systemet
-5. Kör 04_evaluate.py för att jämföra alla tre system
